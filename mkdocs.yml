@@ -1,0 +1,8 @@
+site_name: "doc-tpl"
+site_description: "This is a doc template!"
+
+nav:
+  - Introduction: index.md
+
+plugins:
+  - techdocs-core

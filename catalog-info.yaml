@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "doc-tpl"
+  description: "This is a doc template!"
+  annotations:
+    github.com/project-slug: tszngai/doc-tpl
+    backstage.io/techdocs-ref: url:https://github.com/tszngai/doc-tpl
+spec:
+  type: documentation
+  lifecycle: experimental
+  owner: "Jay"
